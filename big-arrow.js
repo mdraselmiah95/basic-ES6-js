@@ -14,4 +14,20 @@ const outputF = fiveTimes(10);
 
 const getName = () => 'Brandon Sam';
 const name = getName();
-console.log(name);
+// console.log(name);
+
+const doMath = (x, y) => {
+    const sum = x + y;
+    const diff = x - y;
+    const result = sum * diff;
+    const output = result * 5;
+    return output;
+}
+
+const total = doMath(20, 4);
+console.log(total);
+
+
+/* document.getElementById('my-btn').addEventListener(event => {
+
+}) */
